@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="" method="post">
+        {% csrf_token %}
+        <h1 style="color: chartreuse;">OTP has send to the Registered mail</h1>
+        <h2>Verify OTP</h2>
+        <label for="">Enter the OTP:</label>
+        <input type="text" name="user_otp">
+        <button type="submit">Verify</button>
+    </form>
+</body>
+</html>
